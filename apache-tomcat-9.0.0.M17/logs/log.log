@@ -1,0 +1,38 @@
+28-Mar-2017 16:50:58.825 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.0.M17
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 10 2017 20:59:20 UTC
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.0.0
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.4.0-66-generic
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /home/arxemond777/Programms/JDK/jdk1.8.0_112/jre
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_112-b15
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/arxemond777/.IntelliJIdea2016.3/system/tomcat/Unnamed_Project
+28-Mar-2017 16:50:58.827 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/arxemond777/IdeaProjects/Project/apache-tomcat-9.0.0.M17
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/arxemond777/.IntelliJIdea2016.3/system/tomcat/Unnamed_Project/conf/logging.properties
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/arxemond777/.IntelliJIdea2016.3/system/tomcat/Unnamed_Project
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/arxemond777/IdeaProjects/Project/apache-tomcat-9.0.0.M17
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/arxemond777/IdeaProjects/Project/apache-tomcat-9.0.0.M17/temp
+28-Mar-2017 16:50:58.828 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: /home/arxemond777/Programms/IDE/IntelliJ/bin::/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib
+28-Mar-2017 16:50:58.928 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Mar-2017 16:50:58.936 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2017 16:50:58.938 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Mar-2017 16:50:58.939 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Mar-2017 16:50:58.939 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 309 ms
+28-Mar-2017 16:50:58.956 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service Catalina
+28-Mar-2017 16:50:58.956 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.0.M17
+28-Mar-2017 16:50:58.959 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [http-nio-8080]
+28-Mar-2017 16:50:58.963 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler [ajp-nio-8009]
+28-Mar-2017 16:50:58.964 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 24 ms
+Connected to server
+28-Mar-2017 16:50:59.463 INFO [RMI TCP Connection(4)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Mar-2017 16:51:08.961 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory /home/arxemond777/IdeaProjects/Project/apache-tomcat-9.0.0.M17/webapps/manager
+28-Mar-2017 16:51:08.982 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory /home/arxemond777/IdeaProjects/Project/apache-tomcat-9.0.0.M17/webapps/manager has finished in 21 ms
