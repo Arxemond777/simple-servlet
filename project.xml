@@ -8,15 +8,24 @@
       <pathelement location="apache-tomcat-9.0.0.M17/lib/servlet-api.jar"/>
   </path>
 
+    <path id="json">
+        <!--<pathelement location="/home/arxemond777/IdeaProjects/Project/web/WEB-INF/lib/json-20090211.jar"/>-->
+        <pathelement location="/home/arxemond777/.m2/repository/org/json/json/20160212/json-20160212.jar"/>
+    </path>
+
   <target name="clean">
       <delete dir="web/WEB-INF/classes/simple"/>
   </target>
 
+  <record name="/tmp/logfile_start.txt" action="start" append="false" />
   <target name="compile_for_tomcat" depends="clean">
       <javac srcdir="src/main/java" destdir="web/WEB-INF/classes" failonerror="true" fork="true">
           <classpath refid="common_library"/>
+          <classpath refid="json"/>
       </javac>
   </target>
+  <record name="/tmp/logfile_stop.txt" action="stop"/>
+
   <target name="compile_for_manual_control" depends="clean">
       <javac srcdir="src/main/java" destdir="web/WEB-INF/classes" failonerror="true" fork="true">
           <classpath refid="common_library"/>

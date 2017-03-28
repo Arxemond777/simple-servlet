@@ -3,6 +3,7 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
+
     <servlet>
         <servlet-name>Simple</servlet-name>
         <servlet-class>simple.servlet.SimpleServlet</servlet-class>
@@ -11,6 +12,7 @@
         <servlet-name>Simple</servlet-name>
         <url-pattern>/simple</url-pattern>
     </servlet-mapping>
+
     <servlet>
         <servlet-name>Simple_learning_4</servlet-name>
         <servlet-class>simple.servlet.SimpleServletLearning4</servlet-class>
@@ -18,5 +20,14 @@
     <servlet-mapping>
         <servlet-name>Simple_learning_4</servlet-name>
         <url-pattern>/simple4</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>getJsonOrXml</servlet-name>
+        <servlet-class>simple.servlet.GetJsonOrXml</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>getJsonOrXml</servlet-name>
+        <url-pattern>/get_json_or_xml</url-pattern>
     </servlet-mapping>
 </web-app>
