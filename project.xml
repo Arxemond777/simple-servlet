@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!--scp /home/arxemond777/IdeaProjects/Project/simpleServlet.war   some_user@arxemond.ru:/usr/share/tomcat/webapps/-->
+<!--jar tvf simpleServlet.war-->
+<!--http://arxemond.ru:8080/simpleServlet/get_json_or_xml?type=bd_xml-->
+<!--mysql -u some_user -p test < simpleServlet/sql/test_test.sql-->
 <project name="antbuild">
-  
+
+  <!--TODO START ANT-->
+    <!--<property name="war-file" value="${ant.project.name}.war"/>-->
+    <property name="war-file" value="simpleServlet.war"/>
+    <property name="webxml-file" value="web/WEB-INF/web.xml" />
+    <property name="build-dir" value="web/WEB-INF/classes" />
+
+    <property name="lib-dir" value="web/WEB-INF/lib" />
+    <property name="jsps-dir" value="web/WEB-INF/jsps" />
+
+    <property name="jsps-dir" value="web/WEB-INF/jsps" />
+
+    <target name="war" depends="compile_for_tomcat">
+        <war warfile="${war-file}" webxml="${webxml-file}">
+            <classes dir="${build-dir}"/>
+
+            <lib dir="${lib-dir}">
+                <exclude name="servlet-api.jar"/>
+            </lib>
+
+            <!-- Include the JSP files -->
+            <!--<fileset dir="${home.dir}/JSPs">
+                <include name="**/*.jsp"/>
+            </fileset>-->
+            <!--<fileset dir="web/WEB-INF/jsps">
+                <include name="web/WEB-INF/jsps/*.jsp"/>
+            </fileset>-->
+            <zipfileset dir="web/WEB-INF/jsps" includes="**/*.jsp" prefix="WEB-INF/jsps"/>
+            <zipfileset dir="web/WEB-INF/tags/scripts" includes="**/*.tag" prefix="WEB-INF/tags/scripts"/>
+
+
+            <zipfileset dir="web/js" includes="**/*.js" prefix="js"/>
+            <zipfileset dir="web/css" includes="**/*.css" prefix="css"/>
+
+            <zipfileset dir="web/html" includes="**/*.html" prefix="html"/>
+            <zipfileset dir="web/html" includes="**/*.jsp" prefix="html"/>
+
+            <zipfileset dir="web/sql" includes="**/*.sql" prefix="sql"/>
+        </war>
+    </target>
+  <!--TODO END ANT-->
+
   
   <!--<property file="project.properties"/>-->
 
