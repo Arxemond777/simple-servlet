@@ -26,7 +26,7 @@
 </head>
 <body>
     <scripts:header title="Simple"/>
-    jsp2
+    jsp21
     <hr/>
     <c:forEach var="item" items="${items}">
         <div>Id : <c:out value="${item.id}"/></div>
@@ -40,6 +40,7 @@
     </c:forEach>
 
     <hr/>
+    123
     ${param.city}
     <hr/>
     ${requestScope.message}

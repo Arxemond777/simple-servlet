@@ -7,6 +7,8 @@
 </head>
 <body>
 <scripts:header title="Simple 4"/>
+1
+2
 
 <%--${header}--%>
 </body>
