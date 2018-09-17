@@ -1,6 +1,6 @@
 Памятка для себя
 
-scp /home/arxemond777/IdeaProjects/Project/simpleServlet.war   some_user@arxemond.ru:/usr/share/tomcat/webapps/
+scp /home/arxemond777/IdeaProjects/Project/simpleServlet.war   some_user@arxemond.ru:/usr/share/tomcat9/webapps/
 
 jar tvf simpleServlet.war
 
